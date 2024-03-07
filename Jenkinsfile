@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-              sh './.output' 
+              sh './output' 
                 // Add shell script to test .cpp file
             }
         }
